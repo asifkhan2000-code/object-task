@@ -12,7 +12,7 @@ function tenTimes(number) {
 const output1 = tenTimes(number1);
 console.log("Ten times of the number:", output1); // Use stored value
 
-// Get user input for second number6    
+// Get user input for second number6
 const number2 = Number(prompt("Enter number you want to cut half of it: "));
 
 // Function to divide by 2
@@ -23,3 +23,12 @@ function cuthalf(number) {
 // Store function output in a variable
 const output2 = cuthalf(number2);
 console.log("Half of the number:", output2); // Use stored value
+
+function add(a, b) {
+    const sum = a + b;
+    return sum; 
+}
+const a = Number(prompt("Enter first valid number: "));
+const b = Number(prompt("Enter second valid number: "));
+const output = add(a, b);
+console.log("Sum of the two valid numbers:", output);
