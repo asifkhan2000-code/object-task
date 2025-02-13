@@ -6,8 +6,9 @@ let myObject = {
 };
 // 1st method
 const keys = Object.keys(myObject);
+const values = Object.values(myObject);
 for(const key of keys) {
-    console.log("Key:", key, "| type:", typeof myObject[key])
+    console.log("Key:", key, "| type:", typeof myObject[key]);
 }
 // 2nd method
 for (const properties in myObject) {
